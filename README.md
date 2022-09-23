@@ -3,7 +3,10 @@
 
 Question01 클래스
 문제1. 다음 코드를 실행하면 출력 결과로 5를 기대했는데 4가 출력되었습니다. 어디서 잘못 작성된 것일까요?
+
+
 public class Hello {
+
     public static void main(String[] args) {
         int var1=5;
         int var2=2;
@@ -14,7 +17,6 @@ public class Hello {
         
         System.out.println(var4);
     }
-
 }
 
 문제1번 답안: 위의 코드에서 
@@ -33,7 +35,9 @@ public class Hello {
       double var3 = (double) var1 / var2; 로 변경해줘야 합니다.
       
 문제 1번 답안 코드:
+
 public class Question01 {
+
     public static void main(String[] args) {
 
         int var1 = 5;
@@ -48,7 +52,9 @@ public class Question01 {
 
 Question02 클래스
 문제2. 다음 코드를 실행했을 때 출력 결과는 무엇입니까? ( 증감연산자에 대해 알아보세요!)
+
 public class Question02 {
+
     public static void main(String[] args) {
 
         int x=10;
@@ -58,6 +64,7 @@ public class Question02 {
 
     }
 }
+
 문제2번 답안 : 31
 
 Question03 클래스
@@ -76,7 +83,10 @@ Math.random() 함수는 소수점으로 0에서1 사이를 출력하기 때문�
 if 조건문을 사용해서 두개의 변수를 더한 값이 5가되면 break로 빠저나오게 합니다.
 
 답안 코드 :
+
+
 public class Question03 {
+
     public static void main(String[] args) {
         System.out.println("시작!");
         while (true) {
@@ -94,7 +104,6 @@ public class Question03 {
             }
         }
     }
-
 }
 
 
