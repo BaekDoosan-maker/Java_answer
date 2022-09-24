@@ -20,19 +20,23 @@ public class Hello {
 }
 
 문제1번 답안: 위의 코드에서 
-      double var3 = (double) var1 / var2; 로 (double)을 붙여줘야 합니다.
+      double var3 = (double) var1 / var2; 로 (double)을 붙여줘야 합니다. 위 코드에서 var1과 var2 끼리의 연산은 정수끼리의 연산으로 정수값을 리턴하기 때문에 
+      2.5가 나오기 위해서는 실수 값을 리턴할수 있도록 var1과 var2 중 하나는 최소한 실수여야 하는데 (double)을 붙여서 실수로 만들어줍니다.
       
+     
+      답안 도출과정: 
       위의 코드대로 한다면
       double var3 = var1/var2; 에서 var3 의 값을 
       System.out.println(var3) 출력을 하면 2가 출력됩니다.
       
       var1/ var2 앞에 (double)을 붙여주면 
       double var3 = (double) var1 / var2; 에서 var3의 값을 
-      System.out.println(var3) 출력을 하면 2.5가 출력됩니다.
+      System.out.println(var3) 출력을 하면 2.5가 출력됩니다. 
       
       int var4 = (int)(var3*var2); 에서 var4에 기대한 결과 5가 들어가기 위해서는 
       double var3 = var1/var2; 을 
       double var3 = (double) var1 / var2; 로 변경해줘야 합니다.
+      
       
 문제 1번 답안 코드:
 
